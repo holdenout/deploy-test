@@ -2,8 +2,7 @@ name: Test
 run-name: ${{ github.actor }} is testing
 on:
   push:
-    types:
-      - main
+    branches: [ "main" ]
 
 jobs:
   build:
